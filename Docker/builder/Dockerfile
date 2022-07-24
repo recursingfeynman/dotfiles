@@ -3,7 +3,7 @@ FROM nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04
 # ENV CUDA_PATH /usr/local/cuda
 # ENV LD_LIBRARY_PATH /usr/local/cuda/lib64
 
-MAINTAINER recursivefeynman 
+MAINTAINER recursingfeynman 
 
 WORKDIR root/
 
