@@ -1,0 +1,30 @@
+pgrep redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+kill 46684
+cd .config/zsh
+ls
+mkdir zshbackup
+mv * zshbackup
+ls
+cd zshbackup
+ls
+cd ..
+rm -rf zshbackup
+cd ..
+mkdir zshbackup
+cd zsh
+mv * ~/.config/zshbackup
+ls
+mv * ~/.config/zshbackup/
+ls
+mv .* ~/.config/zshbackup/
+ls
+sudo pacman -Rcns zsh
+exit

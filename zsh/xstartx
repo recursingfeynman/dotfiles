@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if ! xset q &>/dev/null; then
+
+	start=true
+	echo ' '
+	for (( i=5; i>0; i--)); do
+		printf "\rStarting X protocol in $i seconds.  Hit any key to exit."
+		read -s -n 1 -t 1 key
+		if [ $? -eq 0 ]
+		then
+			start=false
+			break
+		fi
+	done
+
+	if $start; then 
+		startx
+	else 
+		echo -e "\n\nProcess stopped"
+	fi
+
+fi

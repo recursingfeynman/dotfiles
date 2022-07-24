@@ -1,0 +1,6 @@
+#/bin/bash
+
+scrot ~/.config/awesome/config/wallpaper/wallpaper1.jpg
+convert ~/.config/awesome/config/wallpaper/wallpaper1.jpg -blur 0x5 ~/.config/awesome/config/wallpaper/wallpaper1_blur.jpg
+
+i3lock -i ~/.config/awesome/config/wallpaper/wallpaper1_blur.jpg
