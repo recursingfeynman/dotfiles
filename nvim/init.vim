@@ -28,6 +28,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'ap/vim-css-color'
 Plugin 'morhetz/gruvbox'
 Plugin 'norcalli/nvim-colorizer.lua'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()
 
